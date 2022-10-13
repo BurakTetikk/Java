@@ -12,6 +12,7 @@ public class Exercise01 {
         int[] score = new int[studentsNumber];
         getScore(score, input);
         printScore(score);
+        System.out.println();
     }
 
     public static void printScore(int[] score) {
